@@ -10,7 +10,7 @@
 
 :root {
     --white-color: #fff;
-    --primary-color: #eaeef5;
+    --primary-color: #f6f6f6;
     --secondary-color: #a89f9f;
     --tertiary-color: #233032;
     --quaternary-color: #2f86d6;
@@ -55,10 +55,6 @@ header {
 .cabecalho-logo img {
     width: 90px;
     margin-right: 10px;
-}
-
-.cabecalho-logo h1 {
-    font-size: px;
 }
 
 .cabecalho p {
@@ -210,7 +206,9 @@ header {
     width: 100px;
 }
 
-.services-box img, h4, p {
+.services-box img,
+.services-box h4,
+.services-box p {
     margin-top: 20px;
 }
 /*servicos*/
@@ -226,8 +224,7 @@ header {
 
 
 .tabela h3 {
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size: 32px;
     margin-bottom: 8%;
 }
 
@@ -245,7 +242,7 @@ header {
 
 .tabela table h4 {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .tabela table th, td {
@@ -258,8 +255,7 @@ header {
 }
 
 .tabela table thead th p {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: small 13px;
     color: var(--secondary-color);
     margin-top: 0;
 }
