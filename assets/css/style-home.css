@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --white-color: #fff;
+    --primary-color: #eaeef5;
+    --secondary-color: #a89f9f;
+    --tertiary-color: #233032;
+    --quaternary-color: #2f86d6;
+    --quinary-color: rgba(47, 134, 214, 1);
+}
+
+body {
+    min-height: 100vh;
+}
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    background-color: var(--white-color);
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.blue-text {
+    color: var(--quaternary-color);   
+}
+
+.white-text {
+    color: var(--white-color);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.cabecalho-logo h1 {
+    font-size: px;
+}
+
+.cabecalho p {
+    font-weight: 600;
+}
+
+.cabecalho nav ul {
+    display: flex;
+}
+
+.cabecalho nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--tertiary-color);
+}
+
+.cabecalho nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.cabecalho nav ul li a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.cabecalho nav ul li a:hover {
+    color: var(--quaternary-color);
+}
+
+/*BANNER*/
+.banner-info {
+    background-color: var(--quaternary-color);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 180px 0px;   
+}
+
+.banner-description {
+    max-width: 470px;
+    margin-left: px;
+}
+
+.banner-description h2 {
+    margin: 20px 0px;
+    font-size: 28px;
+}
+
+.banner-description p {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.banner-description img {
+    max-width: 50%;
+}
+/*BANNER*/
+
+/*anuncio*/
+
+.faixa-anuncio1 {
+    width: 100%;
+    background-color: var(--tertiary-color);
+}
+
+.faixa-text {
+    max-width: 600px;
+}
+
+.faixa-text h3 {
+    font-size: 25px;
+}
+
+.faixa-btn {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-color1 {
+    background-color: var(--quaternary-color)
+}
+
+.btn-color2 {
+    background-color: var(--tertiary-color)
+}
+
+.faixa-btn a {
+    color: var(--white-color);
+}
+
+.faixa-btn a img {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+}
+
+.faixa-anuncio2 {
+    width: 100%;
+    background-color: var(--quaternary-color);
+}
+
+.faixa-anuncio2 h3 {
+    font-size: 25px;
+}
+
+.faixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+/*anuncio*/
+
+/*servicos*/
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.services h3 {
+    width: 900px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.services-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.services-box div {
+    width: 33%;
+}
+
+.services-box img {
+    width: 100px;
+}
+
+.services-box img, h4, p {
+    margin-top: 20px;
+}
+/*servicos*/
+
+/*TABELA*/
+
+.tabela-box {
+    background-color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.tabela h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 8%;
+}
+
+.tabela img{
+    max-width: 100px;
+    padding: 10px 0;
+}
+
+.tabela table {
+    background-color: var(--white-color);
+    width: 100%;
+    box-shadow: 1px 1px 50px 20px var(--quinary-color);
+    border-collapse: collapse;
+}
+
+.tabela table h4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.tabela table th, td {
+    padding: 20px;
+}
+
+.tabela table thead th{
+    border-right: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.tabela table thead th p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+.tabela table tbody td{
+    border-right: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    font-weight: 400;
+}
+
+.tabela .bg-list {
+    background-color: var(--primary-color);
+}
