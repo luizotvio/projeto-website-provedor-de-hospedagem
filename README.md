@@ -4,6 +4,6 @@
 
 # Preview do projeto
 <img src="assets/img/tela.jpeg">
-<img src="assets/img/telaa.jpeg">
+<img src="assets/img/tela.jpeg">
 
 > Status do Projeto: Em desenvolvimento :warning:
