@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --white-color: #fff;
+    --primary-color: #f6f6f6;
+    --secondary-color: #a89f9f;
+    --tertiary-color: #233032;
+    --quaternary-color: #2f86d6;
+    --quinary-color: rgba(47, 134, 214, 1);
+    --rodape-color: #f1f3f7;
+}
+
+body {
+    min-height: 100vh;
+}
+header, main, footer {
+    width: 100%;
+}
+
+header {
+    background-color: var(--quaternary-color);
+}
+
+.white-text {
+    color: var(--white-color);
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.cabecalho p {
+    font-weight: 600;
+}
+
+.cabecalho nav ul {
+    display: flex;
+}
+
+.cabecalho nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cabecalho nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.cabecalho nav ul li a {
+    text-decoration: none;
+}
+
+.cabecalho nav ul li a:hover {
+    color: var(--tertiary-color);
+}
+
+
+footer {
+    text-align: center;
+    background-color: var(--quaternary-color);
+}
+
+.footer-infos {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 100px 0;
+}
+
+.footer-infos p {
+    color: var(--white-color);
+}
+
+.footer-logo {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.footer-logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 32px;
+    text-align: left;
+}
+
+.footer-contatos {
+    margin: 30px 0;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+
+.info-autor {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--rodape-color);
+}
+
+.info-autor a {
+    color: var(--quaternary-color);
+}
