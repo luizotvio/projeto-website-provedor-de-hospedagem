@@ -83,6 +83,47 @@ header {
     color: var(--tertiary-color);
 }
 
+.tabela-box {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.tabela-box table {
+    width: 100%;
+    
+}
+
+.bg-column {
+    background-color: var(--primary-color);
+}
+.small-text {
+    font-size: 11px;
+    color: var(--secondary-color);
+}
+
+.tabela h4 {
+    font-size: 32px;
+}
+
+.tabela table th, td {
+    padding: 10px 20px;
+}
+
+.tabela table tbody td{
+    border-right: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.tabela table tbody td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+.bi-circle-fill {
+    color: var(--quaternary-color);
+}
 
 footer {
     text-align: center;
